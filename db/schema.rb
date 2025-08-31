@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_08_30_025207) do
+ActiveRecord::Schema[8.0].define(version: 2025_08_31_030441) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -420,6 +420,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_08_30_025207) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "cartridge_type_id", null: false
+    t.string "custom_data_source_name"
     t.index ["account_id"], name: "index_reloading_sessions_on_account_id"
     t.index ["bullet_id"], name: "index_reloading_sessions_on_bullet_id"
     t.index ["bullet_weight_id"], name: "index_reloading_sessions_on_bullet_weight_id"

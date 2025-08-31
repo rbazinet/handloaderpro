@@ -1,0 +1,7 @@
+lapua_308:
+  name: "Lapua .308 Win"
+  cartridge_type: brass
+
+federal_308:
+  name: "Federal .308 Win"
+  cartridge_type: brass

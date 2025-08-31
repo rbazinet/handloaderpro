@@ -528,6 +528,14 @@ en:
     empty: "Nothing to see here — yet."
     empty_description: "We'll let you know when you have new notifications."
 
+  reloading_sessions:
+    create:
+      created: "Reloading session was successfully created."
+    update:
+      updated: "Reloading session was successfully updated."
+    destroy:
+      destroyed: "Reloading session was successfully deleted."
+
   activerecord:
     attributes:
       api_token:

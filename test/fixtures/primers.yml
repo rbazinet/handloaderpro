@@ -1,0 +1,7 @@
+cci_br2:
+  name: "CCI BR2"
+  manufacturer: cci
+
+federal_210:
+  name: "Federal 210"
+  manufacturer: federal

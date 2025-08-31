@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   end
 
   resources :announcements, only: [:index, :show]
+  resources :reloading_sessions
 
   namespace :action_text do
     resources :embeds, only: [:create], constraints: {id: /[^\/]+/} do

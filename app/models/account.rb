@@ -3,6 +3,7 @@ class Account < ApplicationRecord
 
   include Billing
   include Domains
+  include Reloading
   include Transfer
   include Types
 end
