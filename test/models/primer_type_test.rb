@@ -2,14 +2,14 @@ require "test_helper"
 
 class PrimerTypeTest < ActiveSupport::TestCase
   test "should require name" do
-    primer_type = PrimerType.new
+    primer_type = PrimerType.new(cartridge_type: cartridge_types(:rifle))
     assert_not primer_type.valid?
     assert_includes primer_type.errors[:name], "can't be blank"
   end
 
   test "should require unique name" do
     existing_type = primer_types(:large_rifle)
-    primer_type = PrimerType.new(name: existing_type.name)
+    primer_type = PrimerType.new(name: existing_type.name, cartridge_type: existing_type.cartridge_type)
 
     assert_not primer_type.valid?
     assert_includes primer_type.errors[:name], "has already been taken"
@@ -23,7 +23,7 @@ class PrimerTypeTest < ActiveSupport::TestCase
   end
 
   test "should be valid with valid attributes" do
-    primer_type = PrimerType.new(name: "Test Primer Type")
+    primer_type = PrimerType.new(name: "Test Primer Type", cartridge_type: cartridge_types(:rifle))
 
     assert primer_type.valid?
   end

@@ -1,0 +1,20 @@
+<div class="field">
+  <%= label_tag "powder[cartridge_type_ids]", "Cartridge Types", class: "block text-sm font-medium text-gray-700 mb-2" %>
+
+  <div class="space-y-2">
+    <% CartridgeType.order(:name).each do |cartridge_type| %>
+      <div class="flex items-center">
+        <%= check_box_tag "powder[cartridge_type_ids][]",
+                          cartridge_type.id,
+                          record.cartridge_type_ids.include?(cartridge_type.id),
+                          id: "powder_cartridge_type_ids_#{cartridge_type.id}",
+                          class: "h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded" %>
+        <%= label_tag "powder_cartridge_type_ids_#{cartridge_type.id}",
+                      cartridge_type.name,
+                      class: "ml-2 text-sm text-gray-900" %>
+      </div>
+    <% end %>
+  </div>
+
+  <%= hidden_field_tag "powder[cartridge_type_ids][]", "" %>
+</div>

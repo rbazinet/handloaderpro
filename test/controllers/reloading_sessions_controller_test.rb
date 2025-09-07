@@ -30,7 +30,7 @@ class ReloadingSessionsControllerTest < ActionDispatch::IntegrationTest
       post reloading_sessions_url, params: {
         reloading_session: {
           cartridge_id: cartridges(:lapua_308).id,
-          cartridge_type_id: cartridge_types(:brass).id,
+          cartridge_type_id: cartridge_types(:rifle).id,
           loaded_at: Date.current,
           reloading_data_source_id: reloading_data_sources(:hodgdon).id,
           bullet_id: bullets(:sierra_168).id,
@@ -55,7 +55,7 @@ class ReloadingSessionsControllerTest < ActionDispatch::IntegrationTest
       post reloading_sessions_url, params: {
         reloading_session: {
           cartridge_id: cartridges(:lapua_308).id,
-          cartridge_type_id: cartridge_types(:brass).id,
+          cartridge_type_id: cartridge_types(:rifle).id,
           loaded_at: Date.current,
           reloading_data_source_id: reloading_data_sources(:other).id,
           custom_data_source_name: "My Custom Source",
@@ -120,8 +120,9 @@ class ReloadingSessionsControllerTest < ActionDispatch::IntegrationTest
     other_account = Account.create!(name: "Other Account", owner: @user)
     ReloadingSession.create!(
       account: other_account,
+      loaded_at: Date.current,
       cartridge: cartridges(:lapua_308),
-      cartridge_type: cartridge_types(:brass),
+      cartridge_type: cartridge_types(:rifle),
       reloading_data_source: reloading_data_sources(:hodgdon),
       bullet: bullets(:sierra_168),
       bullet_weight: bullet_weights(:weight_168),

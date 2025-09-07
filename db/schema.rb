@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_09_07_022625) do
+ActiveRecord::Schema[8.0].define(version: 2025_09_07_033820) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -146,6 +146,16 @@ ActiveRecord::Schema[8.0].define(version: 2025_09_07_022625) do
     t.decimal "value"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "cartridge_type_powders", force: :cascade do |t|
+    t.bigint "cartridge_type_id", null: false
+    t.bigint "powder_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["cartridge_type_id", "powder_id"], name: "idx_on_cartridge_type_id_powder_id_959008bbaa", unique: true
+    t.index ["cartridge_type_id"], name: "index_cartridge_type_powders_on_cartridge_type_id"
+    t.index ["powder_id"], name: "index_cartridge_type_powders_on_powder_id"
   end
 
   create_table "cartridge_types", force: :cascade do |t|
@@ -386,6 +396,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_09_07_022625) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "cartridge_type_id", null: false
+    t.index ["cartridge_type_id"], name: "index_primer_types_on_cartridge_type_id"
   end
 
   create_table "primers", force: :cascade do |t|
@@ -484,10 +496,13 @@ ActiveRecord::Schema[8.0].define(version: 2025_09_07_022625) do
   add_foreign_key "bullet_weights", "cartridges"
   add_foreign_key "bullets", "calibers"
   add_foreign_key "bullets", "manufacturers"
+  add_foreign_key "cartridge_type_powders", "cartridge_types"
+  add_foreign_key "cartridge_type_powders", "powders"
   add_foreign_key "cartridges", "cartridge_types"
   add_foreign_key "pay_charges", "pay_customers", column: "customer_id"
   add_foreign_key "pay_payment_methods", "pay_customers", column: "customer_id"
   add_foreign_key "pay_subscriptions", "pay_customers", column: "customer_id"
+  add_foreign_key "primer_types", "cartridge_types"
   add_foreign_key "reloading_sessions", "accounts"
   add_foreign_key "reloading_sessions", "bullet_weights"
   add_foreign_key "reloading_sessions", "bullets"

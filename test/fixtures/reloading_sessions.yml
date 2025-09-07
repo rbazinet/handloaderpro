@@ -1,7 +1,7 @@
 session_one:
   account: one
   cartridge: lapua_308
-  cartridge_type: brass
+  cartridge_type: rifle
   loaded_at: <%= 1.week.ago %>
   reloading_data_source: hodgdon
   bullet: sierra_168
@@ -18,7 +18,7 @@ session_one:
 session_two:
   account: one
   cartridge: federal_308
-  cartridge_type: brass
+  cartridge_type: rifle
   loaded_at: <%= 2.days.ago %>
   reloading_data_source: other
   custom_data_source_name: "Custom Manual"

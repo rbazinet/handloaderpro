@@ -1,5 +1,15 @@
 large_rifle:
   name: "Large Rifle"
+  cartridge_type: rifle
 
 small_rifle:
   name: "Small Rifle"
+  cartridge_type: rifle
+
+small_pistol:
+  name: "Small Pistol"
+  cartridge_type: pistol
+
+large_pistol:
+  name: "Large Pistol"
+  cartridge_type: pistol

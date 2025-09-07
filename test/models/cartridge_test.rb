@@ -10,7 +10,7 @@ class CartridgeTest < ActiveSupport::TestCase
   test "should belong to cartridge_type" do
     cartridge = cartridges(:lapua_308)
 
-    assert_equal cartridge_types(:brass), cartridge.cartridge_type
+    assert_equal cartridge_types(:rifle), cartridge.cartridge_type
   end
 
   test "should have many bullet_weights" do
@@ -32,7 +32,7 @@ class CartridgeTest < ActiveSupport::TestCase
   end
 
   test "should require name" do
-    cartridge = Cartridge.new(cartridge_type: cartridge_types(:brass))
+    cartridge = Cartridge.new(cartridge_type: cartridge_types(:rifle))
     assert_not cartridge.valid?
     assert_includes cartridge.errors[:name], "can't be blank"
   end
@@ -51,7 +51,7 @@ class CartridgeTest < ActiveSupport::TestCase
   test "should allow same name for different cartridge_types" do
     cartridge = Cartridge.new(
       name: cartridges(:lapua_308).name,
-      cartridge_type: cartridge_types(:steel)  # Different cartridge type
+      cartridge_type: cartridge_types(:pistol)  # Different cartridge type
     )
 
     assert cartridge.valid?
@@ -65,17 +65,17 @@ class CartridgeTest < ActiveSupport::TestCase
   end
 
   test "should have for_cartridge_type scope" do
-    brass_cartridges = Cartridge.for_cartridge_type(cartridge_types(:brass).id)
+    rifle_cartridges = Cartridge.for_cartridge_type(cartridge_types(:rifle).id)
 
-    brass_cartridges.each do |cartridge|
-      assert_equal cartridge_types(:brass).id, cartridge.cartridge_type_id
+    rifle_cartridges.each do |cartridge|
+      assert_equal cartridge_types(:rifle).id, cartridge.cartridge_type_id
     end
   end
 
   test "should have for_select class method" do
     assert_respond_to Cartridge, :for_select
 
-    options = Cartridge.for_select(cartridge_types(:brass).id)
+    options = Cartridge.for_select(cartridge_types(:rifle).id)
     assert_kind_of Array, options
 
     options.each do |option|
@@ -89,7 +89,7 @@ class CartridgeTest < ActiveSupport::TestCase
   test "should be valid with valid attributes" do
     cartridge = Cartridge.new(
       name: "Test Cartridge",
-      cartridge_type: cartridge_types(:brass)
+      cartridge_type: cartridge_types(:rifle)
     )
 
     assert cartridge.valid?

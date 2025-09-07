@@ -15,11 +15,11 @@ class ReloadingSession < ApplicationRecord
   belongs_to :primer_type
 
   validates :loaded_at, presence: true
-  validates :quantity, numericality: { only_integer: true, greater_than: 0 }, allow_nil: true
-  validates :cartridge_overall_length, numericality: { greater_than: 0 }, allow_nil: true
-  validates :powder_weight, numericality: { greater_than: 0 }, allow_nil: true
-  validates :bullet_weight_other, numericality: { greater_than: 0 }, allow_nil: true
-  
+  validates :quantity, numericality: {only_integer: true, greater_than: 0}, allow_nil: true
+  validates :cartridge_overall_length, numericality: {greater_than: 0}, allow_nil: true
+  validates :powder_weight, numericality: {greater_than: 0}, allow_nil: true
+  validates :bullet_weight_other, numericality: {greater_than: 0}, allow_nil: true
+
   # Either bullet_weight_id or bullet_weight_other must be present
   validate :bullet_weight_presence
 

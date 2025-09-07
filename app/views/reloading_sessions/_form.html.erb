@@ -1,4 +1,11 @@
-<%= form_with(model: reloading_session) do |form| %>
+<%= form_with(model: reloading_session, html: { data: {
+  controller: "cartridge-type-filter",
+  "cartridge-type-filter-cartridges-value": Cartridge.includes(:cartridge_type).map { |c| { id: c.id, name: c.name, cartridge_type_id: c.cartridge_type_id } }.to_json,
+  "cartridge-type-filter-primer-types-value": PrimerType.includes(:cartridge_type).map { |pt| { id: pt.id, name: pt.name, cartridge_type_id: pt.cartridge_type_id } }.to_json,
+  "cartridge-type-filter-bullets-value": Bullet.includes(:manufacturer).map { |b| { id: b.id, name: b.name, manufacturer_name: b.manufacturer.name, weight: b.weight } }.to_json,
+  "cartridge-type-filter-bullet-weights-value": BulletWeight.all.map { |bw| { id: bw.id, weight: bw.weight } }.to_json,
+  "cartridge-type-filter-powders-value": Powder.includes(:manufacturer, :cartridge_types).map { |p| { id: p.id, name: p.name, manufacturer_name: p.manufacturer.name, cartridge_type_ids: p.cartridge_type_ids } }.to_json
+} }) do |form| %>
   <% if reloading_session.errors.any? %>
     <div class="alert alert-danger mb-4">
       <h4 class="font-semibold"><%= pluralize(reloading_session.errors.count, "error") %> prohibited this reloading session from being saved:</h4>
@@ -47,7 +54,7 @@
           <%= form.label :notes, class: "form-label" %>
           <%= form.text_area :notes, rows: 3, class: "form-input w-full" %>
         </div>
-        
+
         <% if ReloadingDataSource.any? %>
           <div class="hidden" data-data-source-target="customField">
             <%= form.label :custom_data_source_name, "Custom Data Source Name", class: "form-label" %>
@@ -60,43 +67,30 @@
     <!-- Components Section - Grid Layout -->
     <div>
       <h3 class="font-semibold text-lg mb-4">Components</h3>
-      
+
       <!-- Cartridge and Bullet Section -->
       <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4">
-        <div>
-          <%= form.label :cartridge_id, class: "form-label" %>
-          <%= form.collection_select :cartridge_id,
-              Cartridge.order(:name),
-              :id, :name,
-              { prompt: "Select a cartridge" },
-              class: "form-select" %>
-        </div>
-
         <div>
           <%= form.label :cartridge_type_id, "Cartridge Type", class: "form-label" %>
           <%= form.collection_select :cartridge_type_id,
               CartridgeType.order(:name),
               :id, :name,
               { prompt: "Select a cartridge type" },
-              class: "form-select" %>
+              { class: "form-select", data: { "cartridge-type-filter-target": "cartridgeType", action: "change->cartridge-type-filter#cartridgeTypeChanged" } } %>
         </div>
 
         <div>
-          <%= form.label :bullet_id, class: "form-label" %>
-          <%= form.collection_select :bullet_id,
-              Bullet.order(:name),
+          <%= form.label :cartridge_id, class: "form-label" %>
+          <%= form.collection_select :cartridge_id,
+              Cartridge.includes(:cartridge_type).order(:name),
               :id, :name,
-              { prompt: "Select a bullet" },
-              class: "form-select" %>
+              { prompt: "Select a cartridge" },
+              { class: "form-select", data: { "cartridge-type-filter-target": "cartridge" } } %>
         </div>
 
-        <div>
-          <%= form.label :bullet_type, class: "form-label" %>
-          <%= form.text_field :bullet_type, class: "form-input" %>
-        </div>
       </div>
 
-      <!-- Bullet Weight Section -->
+      <!-- Bullet Section - All bullet fields on one row -->
       <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-4">
         <% if BulletWeight.any? %>
           <div>
@@ -106,13 +100,27 @@
                 :id,
                 ->(bw) { "#{bw.weight} grains" },
                 { prompt: "Select bullet weight", include_blank: true },
-                class: "form-select" %>
+                { class: "form-select", data: { "cartridge-type-filter-target": "bulletWeight", action: "change->cartridge-type-filter#bulletWeightChanged" } } %>
           </div>
         <% end %>
 
         <div>
           <%= form.label :bullet_weight_other, "Custom Weight (gr)", class: "form-label" %>
           <%= form.number_field :bullet_weight_other, step: 0.01, class: "form-input" %>
+        </div>
+
+        <div>
+          <%= form.label :bullet_id, class: "form-label" %>
+          <%= form.collection_select :bullet_id,
+              Bullet.order(:name),
+              :id, :name,
+              { prompt: "Select a bullet" },
+              { class: "form-select", data: { "cartridge-type-filter-target": "bullet" } } %>
+        </div>
+
+        <div>
+          <%= form.label :bullet_type, class: "form-label" %>
+          <%= form.text_field :bullet_type, class: "form-input" %>
         </div>
       </div>
 
@@ -124,7 +132,7 @@
               Powder.order(:name),
               :id, :name,
               { prompt: "Select a powder" },
-              class: "form-select" %>
+              { class: "form-select", data: { "cartridge-type-filter-target": "powder" } } %>
         </div>
 
         <div>
@@ -144,10 +152,10 @@
         <div>
           <%= form.label :primer_type_id, "Primer Type", class: "form-label" %>
           <%= form.collection_select :primer_type_id,
-              PrimerType.order(:name),
+              PrimerType.includes(:cartridge_type).order(:name),
               :id, :name,
               { prompt: "Select a primer type" },
-              class: "form-select" %>
+              { class: "form-select", data: { "cartridge-type-filter-target": "primerType" } } %>
         </div>
       </div>
     </div>

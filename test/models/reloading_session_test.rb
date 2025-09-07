@@ -56,7 +56,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should require loaded_at" do
     session = build_valid_session
     session.loaded_at = nil
-    
+
     assert_not session.valid?
     assert_includes session.errors[:loaded_at], "can't be blank"
   end
@@ -64,7 +64,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should validate quantity is integer when present" do
     session = build_valid_session
     session.quantity = 10.5
-    
+
     assert_not session.valid?
     assert_includes session.errors[:quantity], "must be an integer"
   end
@@ -72,7 +72,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should validate quantity is positive when present" do
     session = build_valid_session
     session.quantity = -5
-    
+
     assert_not session.valid?
     assert_includes session.errors[:quantity], "must be greater than 0"
   end
@@ -80,14 +80,14 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should allow nil quantity" do
     session = build_valid_session
     session.quantity = nil
-    
+
     assert session.valid?
   end
 
   test "should validate cartridge_overall_length is positive when present" do
     session = build_valid_session
     session.cartridge_overall_length = -1.0
-    
+
     assert_not session.valid?
     assert_includes session.errors[:cartridge_overall_length], "must be greater than 0"
   end
@@ -95,7 +95,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should validate powder_weight is positive when present" do
     session = build_valid_session
     session.powder_weight = -5.0
-    
+
     assert_not session.valid?
     assert_includes session.errors[:powder_weight], "must be greater than 0"
   end
@@ -103,7 +103,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should validate bullet_weight_other is positive when present" do
     session = build_valid_session
     session.bullet_weight_other = -10.5
-    
+
     assert_not session.valid?
     assert_includes session.errors[:bullet_weight_other], "must be greater than 0"
   end
@@ -113,7 +113,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
     session = build_valid_session
     session.bullet_weight = bullet_weights(:weight_168)
     session.bullet_weight_other = nil
-    
+
     assert session.valid?
   end
 
@@ -121,7 +121,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
     session = build_valid_session
     session.bullet_weight = nil
     session.bullet_weight_other = 168.25
-    
+
     assert session.valid?
   end
 
@@ -129,7 +129,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
     session = build_valid_session
     session.bullet_weight = bullet_weights(:weight_168)
     session.bullet_weight_other = 168.25
-    
+
     assert session.valid?
   end
 
@@ -137,7 +137,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
     session = build_valid_session
     session.bullet_weight = nil
     session.bullet_weight_other = nil
-    
+
     assert_not session.valid?
     assert_includes session.errors[:base], "Bullet weight must be selected or custom weight must be entered"
   end
@@ -146,15 +146,15 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should require cartridge" do
     session = build_valid_session
     session.cartridge = nil
-    
+
     assert_not session.valid?
     assert_includes session.errors[:cartridge], "must be selected"
   end
 
   test "should require cartridge_type" do
-    session = build_valid_session  
+    session = build_valid_session
     session.cartridge_type = nil
-    
+
     assert_not session.valid?
     assert_includes session.errors[:cartridge_type], "must be selected"
   end
@@ -162,7 +162,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should require reloading_data_source" do
     session = build_valid_session
     session.reloading_data_source = nil
-    
+
     assert_not session.valid?
     assert_includes session.errors[:reloading_data_source], "must be selected"
   end
@@ -170,7 +170,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should require bullet" do
     session = build_valid_session
     session.bullet = nil
-    
+
     assert_not session.valid?
     assert_includes session.errors[:bullet], "must be selected"
   end
@@ -178,7 +178,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should require powder" do
     session = build_valid_session
     session.powder = nil
-    
+
     assert_not session.valid?
     assert_includes session.errors[:powder], "must be selected"
   end
@@ -186,7 +186,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should require primer" do
     session = build_valid_session
     session.primer = nil
-    
+
     assert_not session.valid?
     assert_includes session.errors[:primer], "must be selected"
   end
@@ -194,7 +194,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
   test "should require primer_type" do
     session = build_valid_session
     session.primer_type = nil
-    
+
     assert_not session.valid?
     assert_includes session.errors[:primer_type], "must be selected"
   end
@@ -206,7 +206,7 @@ class ReloadingSessionTest < ActiveSupport::TestCase
       account: accounts(:one),
       loaded_at: Date.current,
       cartridge: cartridges(:lapua_308),
-      cartridge_type: cartridge_types(:brass),
+      cartridge_type: cartridge_types(:rifle),
       reloading_data_source: reloading_data_sources(:hodgdon),
       bullet: bullets(:sierra_168),
       bullet_weight: bullet_weights(:weight_168),

@@ -2,13 +2,13 @@ require "test_helper"
 
 class CartridgeTypeTest < ActiveSupport::TestCase
   test "should have many cartridges" do
-    cartridge_type = cartridge_types(:brass)
+    cartridge_type = cartridge_types(:rifle)
 
     assert_respond_to cartridge_type, :cartridges
   end
 
   test "should have many reloading_sessions" do
-    cartridge_type = cartridge_types(:brass)
+    cartridge_type = cartridge_types(:rifle)
 
     assert_respond_to cartridge_type, :reloading_sessions
   end
@@ -32,7 +32,7 @@ class CartridgeTypeTest < ActiveSupport::TestCase
   end
 
   test "should require unique name" do
-    existing_type = cartridge_types(:brass)
+    existing_type = cartridge_types(:rifle)
     cartridge_type = CartridgeType.new(name: existing_type.name)
 
     assert_not cartridge_type.valid?
@@ -40,7 +40,7 @@ class CartridgeTypeTest < ActiveSupport::TestCase
   end
 
   test "should have name" do
-    cartridge_type = cartridge_types(:brass)
+    cartridge_type = cartridge_types(:rifle)
 
     assert_not_nil cartridge_type.name
     assert_kind_of String, cartridge_type.name

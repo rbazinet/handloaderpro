@@ -1,0 +1,16 @@
+<div class="space-y-2">
+  <% CartridgeType.order(:name).each do |cartridge_type| %>
+    <div class="flex items-center mb-2">
+      <%= check_box_tag "#{form.object_name}[cartridge_type_ids][]",
+                        cartridge_type.id,
+                        form.object.cartridge_type_ids.include?(cartridge_type.id),
+                        id: "#{form.object_name}_cartridge_type_ids_#{cartridge_type.id}",
+                        class: "h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded" %>
+      <%= label_tag "#{form.object_name}_cartridge_type_ids_#{cartridge_type.id}",
+                    cartridge_type.name,
+                    class: "ml-2 text-sm text-gray-900" %>
+    </div>
+  <% end %>
+
+  <%= hidden_field_tag "#{form.object_name}[cartridge_type_ids][]", "" %>
+</div>

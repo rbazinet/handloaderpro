@@ -1,8 +1,8 @@
-brass:
-  name: "Brass"
+rifle:
+  name: "Rifle"
 
-nickel:
-  name: "Nickel"
+pistol:
+  name: "Pistol"
 
-steel:
-  name: "Steel"
+shotgun:
+  name: "Shotgun"
