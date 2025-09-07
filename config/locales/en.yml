@@ -563,6 +563,29 @@ en:
           attributes:
             admin:
               cannot_be_removed: "role cannot be removed for the account owner"
+        reloading_session:
+          attributes:
+            cartridge:
+              required: "must be selected"
+              blank: "must be selected"
+            cartridge_type:
+              required: "must be selected"
+              blank: "must be selected"
+            reloading_data_source:
+              required: "must be selected"
+              blank: "must be selected"
+            bullet:
+              required: "must be selected"
+              blank: "must be selected"
+            powder:
+              required: "must be selected"
+              blank: "must be selected"
+            primer:
+              required: "must be selected"
+              blank: "must be selected"
+            primer_type:
+              required: "must be selected"
+              blank: "must be selected"
 
   errors:
     messages:

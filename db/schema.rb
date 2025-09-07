@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_08_31_030441) do
+ActiveRecord::Schema[8.0].define(version: 2025_09_07_022625) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -408,7 +408,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_08_31_030441) do
     t.bigint "reloading_data_source_id", null: false
     t.bigint "bullet_id", null: false
     t.string "bullet_type"
-    t.bigint "bullet_weight_id", null: false
+    t.bigint "bullet_weight_id"
     t.decimal "bullet_weight_other"
     t.bigint "powder_id", null: false
     t.decimal "powder_weight"

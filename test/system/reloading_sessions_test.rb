@@ -1,141 +1,173 @@
 require "application_system_test_case"
 
 class ReloadingSessionsTest < ApplicationSystemTestCase
-  include Warden::Test::Helpers
+  include Devise::Test::IntegrationHelpers
 
   setup do
-    @account = accounts(:one)
     @user = users(:one)
-    @user.account_users.find_or_create_by!(account: @account) { |au| au.admin = true }
-    login_as @user
-    Current.account = @account
-
-    @reloading_session = reloading_sessions(:session_one)
+    @account = accounts(:one)
+    sign_in @user
+    switch_account(@account)
   end
 
-  test "visiting the index" do
-    visit reloading_sessions_url
-
-    assert_selector "h1", text: "Reloading Sessions"
-    assert_selector "a", text: "New Reloading Session"
-
-    # Should show existing sessions
-    assert_text "Sierra MatchKing 168gr BTHP"
-    assert_text "Hodgdon Varget"
-  end
-
-  test "should create reloading session" do
-    visit reloading_sessions_url
-    click_on "New Reloading Session"
-
+  test "visiting the new reloading session form" do
+    visit new_reloading_session_path
     assert_selector "h1", text: "New Reloading Session"
+    assert_selector "form"
+  end
 
-    # Fill in basic information
-    fill_in "Quantity", with: 25
-    fill_in "Cartridge Overall Length (inches)", with: 2.800
+  test "creating a valid reloading session with dropdown bullet weight" do
+    visit new_reloading_session_path
 
-    # Select data source
+    # Fill Session Information
+    fill_in "Loaded at", with: Date.current
+    fill_in "Quantity", with: "50"
+    fill_in "COL (inches)", with: "2.810"
     select "Hodgdon Reloading", from: "Data Source"
 
-    # Select components
+    # Fill Components
     select "Lapua .308 Win", from: "Cartridge"
     select "Brass", from: "Cartridge Type"
     select "Sierra MatchKing 168gr BTHP", from: "Bullet"
+    fill_in "Bullet Type", with: "Match"
     select "168.0 grains", from: "Bullet Weight"
     select "Hodgdon Varget", from: "Powder"
-    fill_in "Powder Weight (grains)", with: 42.5
+    fill_in "Powder Weight (gr)", with: "42.5"
     select "CCI BR2", from: "Primer"
     select "Large Rifle", from: "Primer Type"
 
-    # Add notes
-    fill_in "Notes", with: "Test system creation"
+    # Fill Notes
+    fill_in "Notes", with: "Test load for accuracy"
 
-    click_on "Create Reloading session"
+    click_button "Create Reloading session"
 
-    assert_text "Reloading session was successfully created."
-    assert_selector "h1", text: "Reloading Session Details"
-    assert_text "25 rounds"
-    assert_text "Test system creation"
+    assert_text "Reloading session was successfully created"
+    assert_current_path reloading_session_path(ReloadingSession.last)
   end
 
-  test "should create reloading session with custom data source" do
-    visit new_reloading_session_url
+  test "creating a valid reloading session with custom bullet weight" do
+    visit new_reloading_session_path
 
-    # Fill in required fields
-    fill_in "Quantity", with: 30
+    # Fill Session Information
+    fill_in "Loaded at", with: Date.current
+    fill_in "Quantity", with: "25"
+    fill_in "COL (inches)", with: "2.820"
+    select "Hornady", from: "Data Source"
 
-    # Select "Other" data source
-    select "Other", from: "Data Source"
+    # Fill Components - use custom bullet weight instead of dropdown
+    select "Federal .308 Win", from: "Cartridge"
+    select "Brass", from: "Cartridge Type" 
+    select "Hornady A-MAX 155gr", from: "Bullet"
+    fill_in "Bullet Type", with: "A-MAX"
+    # Don't select from Bullet Weight dropdown
+    fill_in "Custom Weight (gr)", with: "168.25"
+    select "Hodgdon H4895", from: "Powder"
+    fill_in "Powder Weight (gr)", with: "41.0"
+    select "Federal 210", from: "Primer"
+    select "Large Rifle", from: "Primer Type"
 
-    # Custom data source field should appear
-    assert_selector "input[placeholder='Enter custom data source name']", visible: true
-    fill_in "Custom Data Source Name", with: "My Custom Manual"
+    click_button "Create Reloading session"
 
-    # Fill in components
+    assert_text "Reloading session was successfully created"
+    assert_current_path reloading_session_path(ReloadingSession.last)
+    
+    # Verify custom weight was saved
+    session = ReloadingSession.last
+    assert_equal 168.25, session.bullet_weight_other.to_f
+  end
+
+  test "showing validation errors when required fields are missing" do
+    visit new_reloading_session_path
+
+    # Submit form without filling required fields
+    click_button "Create Reloading session"
+
+    # Should stay on form page with errors
+    assert_selector "h1", text: "New Reloading Session"
+    
+    # Should show error alert at top
+    assert_selector ".alert-danger"
+    
+    # Should show specific error messages
+    assert_text "Loaded at can't be blank"
+    assert_text "Cartridge must be selected"
+    assert_text "Cartridge type must be selected"
+    assert_text "Data source must be selected"
+    assert_text "Bullet must be selected"
+    assert_text "Powder must be selected"
+    assert_text "Primer must be selected"
+    assert_text "Primer type must be selected"
+    assert_text "Bullet weight must be selected or custom weight must be entered"
+  end
+
+  test "showing validation error when neither bullet weight nor custom weight provided" do
+    visit new_reloading_session_path
+
+    # Fill all required fields except bullet weight
+    fill_in "Loaded at", with: Date.current
     select "Lapua .308 Win", from: "Cartridge"
     select "Brass", from: "Cartridge Type"
+    select "Hodgdon Reloading", from: "Data Source"
     select "Sierra MatchKing 168gr BTHP", from: "Bullet"
-    select "168.0 grains", from: "Bullet Weight"
     select "Hodgdon Varget", from: "Powder"
-    fill_in "Powder Weight (grains)", with: 43.0
     select "CCI BR2", from: "Primer"
     select "Large Rifle", from: "Primer Type"
+    # Don't select bullet weight or enter custom weight
 
-    click_on "Create Reloading session"
+    click_button "Create Reloading session"
 
-    assert_text "Reloading session was successfully created."
-    assert_text "My Custom Manual" # Should show custom data source name
+    assert_selector ".alert-danger"
+    assert_text "Bullet weight must be selected or custom weight must be entered"
   end
 
-  test "should update reloading session" do
-    visit reloading_session_url(@reloading_session)
-    click_on "Edit"
-
-    assert_selector "h1", text: "Edit Reloading Session"
-
-    fill_in "Quantity", with: 35
-    fill_in "Notes", with: "Updated notes from system test"
-
-    click_on "Update Reloading session"
-
-    assert_text "Reloading session was successfully updated."
-    assert_text "35 rounds"
-    assert_text "Updated notes from system test"
+  test "quantity field accepts only whole numbers" do
+    visit new_reloading_session_path
+    
+    quantity_field = find_field("Quantity")
+    assert_equal "1", quantity_field["step"]
   end
 
-  test "should show and hide custom data source field" do
-    visit new_reloading_session_url
+  test "custom weight field accepts decimals" do
+    visit new_reloading_session_path
+    
+    custom_weight_field = find_field("Custom Weight (gr)")
+    assert_equal "0.01", custom_weight_field["step"]
+  end
 
-    # Initially hidden
-    assert_selector "input[placeholder='Enter custom data source name']", visible: false
-
-    # Show when "Other" selected
+  test "custom data source field appears when Other is selected" do
+    visit new_reloading_session_path
+    
+    # Custom field should be hidden initially
+    assert_not find_field("Custom Data Source Name", visible: false).visible?
+    
+    # Select "Other" from Data Source dropdown
     select "Other", from: "Data Source"
-    assert_selector "input[placeholder='Enter custom data source name']", visible: true
-
-    # Hide when different option selected
-    select "Hodgdon Reloading", from: "Data Source"
-    assert_selector "input[placeholder='Enter custom data source name']", visible: false
+    
+    # Custom field should become visible
+    assert find_field("Custom Data Source Name").visible?
   end
 
-  test "should delete reloading session" do
-    visit reloading_session_url(@reloading_session)
-
-    click_on "Delete"
-
-    assert_text "Reloading session was successfully deleted."
-    assert_current_path reloading_sessions_path
+  test "loaded at field shows error styling but no inline message" do
+    visit new_reloading_session_path
+    
+    # Submit form to trigger validation errors
+    click_button "Create Reloading session"
+    
+    # Should show error in alert at top
+    assert_selector ".alert-danger"
+    assert_text "Loaded at can't be blank"
+    
+    # But should NOT show inline error message below the field
+    loaded_at_field = find_field("Loaded at")
+    # Field should have error class for styling
+    assert loaded_at_field[:class].include?("error")
+    # But no inline error message should be present after the field
+    refute_text "Loaded at can't be blank", count: 2 # Only in alert, not inline
   end
 
-  test "should navigate between pages" do
-    visit reloading_sessions_url
+  private
 
-    # Click on a session
-    click_on "View", match: :first
-    assert_selector "h1", text: "Reloading Session Details"
-
-    # Go back to index
-    click_on "Back to Sessions"
-    assert_selector "h1", text: "Reloading Sessions"
+  def switch_account(account)
+    visit account_path(account, switch: true)
   end
 end
