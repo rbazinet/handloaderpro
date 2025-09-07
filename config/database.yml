@@ -127,7 +127,7 @@ production:
     <<: *default
     database: handloaderpro_production
     username: doadmin
-    #password: <%= ENV["POSTGRES_PASSWORD"] %>
+    password: <%= ENV["POSTGRES_PASSWORD"] %>
     url: <%= ENV["DATABASE_URL"] %>
     # Or set DATABASE_URL to override
 
