@@ -1,0 +1,7 @@
+varget_rifle:
+  cartridge_type: rifle
+  powder: varget
+
+h4895_rifle:
+  cartridge_type: rifle
+  powder: h4895

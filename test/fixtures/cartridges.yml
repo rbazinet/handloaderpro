@@ -1,0 +1,11 @@
+lapua_308:
+  name: "Lapua .308 Win"
+  cartridge_type: rifle
+
+federal_308:
+  name: "Federal .308 Win"
+  cartridge_type: rifle
+
+federal_45acp:
+  name: "Federal .45 ACP"
+  cartridge_type: pistol

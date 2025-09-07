@@ -1,0 +1,19 @@
+sierra:
+  name: "Sierra Bullets"
+  manufacturer_type: bullet
+
+hornady:
+  name: "Hornady"
+  manufacturer_type: bullet
+
+hodgdon:
+  name: "Hodgdon Powder Company"
+  manufacturer_type: powder
+
+cci:
+  name: "CCI"
+  manufacturer_type: primer
+
+federal:
+  name: "Federal"
+  manufacturer_type: primer

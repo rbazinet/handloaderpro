@@ -1,0 +1,8 @@
+rifle:
+  name: "Rifle"
+
+pistol:
+  name: "Pistol"
+
+shotgun:
+  name: "Shotgun"

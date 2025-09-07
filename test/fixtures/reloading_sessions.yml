@@ -1,0 +1,34 @@
+session_one:
+  account: one
+  cartridge: lapua_308
+  cartridge_type: rifle
+  loaded_at: <%= 1.week.ago %>
+  reloading_data_source: hodgdon
+  bullet: sierra_168
+  bullet_type: "BTHP"
+  bullet_weight: weight_168
+  powder: varget
+  powder_weight: 42.5
+  primer: cci_br2
+  primer_type: large_rifle
+  cartridge_overall_length: 2.800
+  quantity: 20
+  notes: "Test load for accuracy"
+
+session_two:
+  account: one
+  cartridge: federal_308
+  cartridge_type: rifle
+  loaded_at: <%= 2.days.ago %>
+  reloading_data_source: other
+  custom_data_source_name: "Custom Manual"
+  bullet: hornady_155
+  bullet_type: "A-MAX"
+  bullet_weight: weight_155
+  powder: h4895
+  powder_weight: 45.0
+  primer: federal_210
+  primer_type: large_rifle
+  cartridge_overall_length: 2.810
+  quantity: 50
+  notes: "High velocity load"

@@ -1,0 +1,8 @@
+bullet:
+  name: "Bullet Manufacturer"
+
+powder:
+  name: "Powder Manufacturer"
+
+primer:
+  name: "Primer Manufacturer"

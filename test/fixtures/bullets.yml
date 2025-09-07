@@ -1,0 +1,17 @@
+sierra_168:
+  name: "Sierra MatchKing 168gr BTHP"
+  weight: 168
+  length: 1.210
+  sd: 0.253
+  bc: 0.462
+  manufacturer: sierra
+  caliber: cal_308
+
+hornady_155:
+  name: "Hornady A-MAX 155gr"
+  weight: 155
+  length: 1.180
+  sd: 0.233
+  bc: 0.435
+  manufacturer: hornady
+  caliber: cal_308

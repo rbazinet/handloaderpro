@@ -1,0 +1,101 @@
+<% Current.meta_tags.set(title: "Reloading Session Details") %>
+
+<div class="container mx-auto p-4 max-w-4xl">
+  <div class="flex justify-between items-center mb-6">
+    <h1 class="h2">Reloading Session Details</h1>
+    <div class="flex gap-2">
+      <%= link_to "Edit", edit_reloading_session_path(@reloading_session), class: "btn btn-secondary" %>
+      <%= link_to "Delete", @reloading_session,
+          data: { "turbo-method": "delete" },
+          class: "btn btn-danger" %>
+      <%= link_to "Back to Sessions", reloading_sessions_path, class: "btn btn-secondary" %>
+    </div>
+  </div>
+
+  <div class="bg-white dark:bg-gray-900 rounded-lg shadow border border-gray-200 dark:border-gray-700 p-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Session Information</h3>
+        <dl class="space-y-3">
+          <div>
+            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Date Loaded</dt>
+            <dd class="mt-1 text-sm text-gray-900 dark:text-gray-100">
+              <%= @reloading_session.loaded_at&.strftime("%B %d, %Y") || @reloading_session.created_at.strftime("%B %d, %Y") %>
+            </dd>
+          </div>
+          <div>
+            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Quantity</dt>
+            <dd class="mt-1 text-sm text-gray-900 dark:text-gray-100"><%= @reloading_session.quantity %> rounds</dd>
+          </div>
+          <div>
+            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Cartridge Overall Length</dt>
+            <dd class="mt-1 text-sm text-gray-900 dark:text-gray-100">
+              <%= @reloading_session.cartridge_overall_length ? "#{@reloading_session.cartridge_overall_length} inches" : "Not specified" %>
+            </dd>
+          </div>
+          <div>
+            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Data Source</dt>
+            <dd class="mt-1 text-sm text-gray-900 dark:text-gray-100">
+              <% if @reloading_session.custom_data_source_name.present? %>
+                <%= @reloading_session.custom_data_source_name %>
+              <% else %>
+                <%= @reloading_session.reloading_data_source&.name %>
+              <% end %>
+            </dd>
+          </div>
+        </dl>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Components</h3>
+        <dl class="space-y-3">
+          <div>
+            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Cartridge</dt>
+            <dd class="mt-1 text-sm text-gray-900 dark:text-gray-100">
+              <%= @reloading_session.cartridge&.name %> (<%= @reloading_session.cartridge_type&.name %>)
+            </dd>
+          </div>
+          <div>
+            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Bullet</dt>
+            <dd class="mt-1 text-sm text-gray-900 dark:text-gray-100">
+              <%= @reloading_session.bullet&.name %>
+              <% if @reloading_session.bullet_type.present? %>
+                - <%= @reloading_session.bullet_type %>
+              <% end %>
+            </dd>
+          </div>
+          <div>
+            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Bullet Weight</dt>
+            <dd class="mt-1 text-sm text-gray-900 dark:text-gray-100">
+              <%= @reloading_session.bullet_weight_other || @reloading_session.bullet_weight&.weight %> grains
+            </dd>
+          </div>
+          <div>
+            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Powder</dt>
+            <dd class="mt-1 text-sm text-gray-900 dark:text-gray-100">
+              <%= @reloading_session.powder&.name %> - <%= @reloading_session.powder_weight %> grains
+            </dd>
+          </div>
+          <div>
+            <dt class="text-sm font-medium text-gray-500 dark:text-gray-400">Primer</dt>
+            <dd class="mt-1 text-sm text-gray-900 dark:text-gray-100">
+              <%= @reloading_session.primer&.name %> (<%= @reloading_session.primer_type&.name %>)
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+
+    <% if @reloading_session.notes.present? %>
+      <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+        <h3 class="font-semibold text-lg mb-2">Notes</h3>
+        <p class="text-sm text-gray-700 dark:text-gray-300 whitespace-pre-wrap"><%= @reloading_session.notes %></p>
+      </div>
+    <% end %>
+
+    <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700 text-sm text-gray-500 dark:text-gray-400">
+      <p>Created <%= @reloading_session.created_at.strftime("%B %d, %Y at %I:%M %p") %></p>
+      <p>Last updated <%= @reloading_session.updated_at.strftime("%B %d, %Y at %I:%M %p") %></p>
+    </div>
+  </div>
+</div>

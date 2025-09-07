@@ -1,0 +1,59 @@
+<% Current.meta_tags.set(title: "Reloading Sessions") %>
+
+<div class="container mx-auto p-4">
+  <div class="flex justify-between items-center mb-6">
+    <h1 class="h2">Reloading Sessions</h1>
+    <%= link_to "New Reloading Session", new_reloading_session_path, class: "btn btn-primary" %>
+  </div>
+
+  <div class="bg-white dark:bg-gray-900 rounded-lg shadow border border-gray-200 dark:border-gray-700">
+    <div class="overflow-x-auto">
+      <table class="w-full">
+        <thead>
+          <tr class="border-b border-gray-200 dark:border-gray-700">
+            <th class="text-left p-4">Date</th>
+            <th class="text-left p-4">Cartridge</th>
+            <th class="text-left p-4">Bullet</th>
+            <th class="text-left p-4">Powder</th>
+            <th class="text-left p-4">Powder Weight</th>
+            <th class="text-left p-4">Primer</th>
+            <th class="text-left p-4">Quantity</th>
+            <th class="text-left p-4">Actions</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-200 dark:divide-gray-700">
+          <% @reloading_sessions.each do |session| %>
+            <tr class="hover:bg-gray-50 dark:hover:bg-gray-800">
+              <td class="p-4"><%= session.loaded_at&.strftime("%m/%d/%Y") || session.created_at.strftime("%m/%d/%Y") %></td>
+              <td class="p-4"><%= session.cartridge&.name %></td>
+              <td class="p-4"><%= session.bullet&.name %></td>
+              <td class="p-4"><%= session.powder&.name %></td>
+              <td class="p-4"><%= session.powder_weight %> gr</td>
+              <td class="p-4"><%= session.primer&.name %></td>
+              <td class="p-4"><%= session.quantity %></td>
+              <td class="p-4">
+                <div class="flex gap-2">
+                  <%= link_to "View", session, class: "btn btn-sm btn-secondary" %>
+                  <%= link_to "Edit", edit_reloading_session_path(session), class: "btn btn-sm btn-secondary" %>
+                  <%= button_to "Delete", session, method: :delete, data: { turbo_confirm: "Are you sure?" }, class: "btn btn-sm btn-danger" %>
+                </div>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+      <% if @reloading_sessions.empty? %>
+        <div class="p-8 text-center text-gray-500">
+          <p>No reloading sessions yet.</p>
+          <%= link_to "Create your first session", new_reloading_session_path, class: "btn btn-primary mt-4" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+  <% if @pagy && @pagy.last > 1 %>
+    <div class="text-center mt-8">
+      <%== @pagy.series_nav %>
+    </div>
+  <% end %>
+</div>

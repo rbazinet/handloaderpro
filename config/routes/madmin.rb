@@ -1,4 +1,5 @@
 namespace :madmin, path: :admin do
+  resources :primer_types
   resources :powders
   resources :bullets
   resources :cartridges
