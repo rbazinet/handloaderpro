@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module JumpstartApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    config.load_defaults 7.2
+    config.load_defaults 8.1
 
     # Please, add to the `ignore` list any other `lib` subdirectories that do
     # not contain `.rb` files, or that should not be reloaded or eager loaded.
@@ -62,9 +62,6 @@ module JumpstartApp
         pin_all_from Rails.root.join("app/javascript/madmin/controllers"), under: "controllers", to: "madmin/controllers"
       end
     end
-
-    # Opt-in to Rails 8.1 change
-    config.active_support.to_time_preserves_timezone = :zone
 
     # We already authenticate /admin routes
     ::MissionControl::Jobs.http_basic_auth_enabled = false if defined?(::MissionControl::Jobs)
