@@ -115,7 +115,7 @@ GEM
       erubi (~> 1.4)
       parser (>= 2.4)
       smart_properties
-    bigdecimal (3.2.2)
+    bigdecimal (3.2.3)
     bindex (0.8.1)
     bootsnap (1.18.6)
       msgpack (~> 1.2)
@@ -136,7 +136,7 @@ GEM
       xpath (~> 3.2)
     chunky_png (1.4.0)
     concurrent-ruby (1.3.5)
-    connection_pool (2.5.3)
+    connection_pool (2.5.4)
     crack (1.0.0)
       bigdecimal
       rexml
@@ -329,7 +329,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.9-x86_64-linux-gnu)
       racc (~> 1.4)
-    noticed (2.8.0)
+    noticed (2.8.1)
       rails (>= 6.1.0)
     orm_adapter (0.5.0)
     ostruct (0.6.3)
@@ -378,7 +378,7 @@ GEM
       activesupport (>= 3.0.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.2.0)
+    rack (3.2.1)
     rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
@@ -600,7 +600,7 @@ DEPENDENCIES
   mission_control-jobs
   name_of_person (~> 1.0)
   nokogiri (>= 1.12.5)
-  noticed (~> 2.2)
+  noticed (~> 2.8)
   pagy (~> 43.0.0.rc2)
   pay (~> 11.0)
   pg
@@ -649,7 +649,7 @@ CHECKSUMS
   bcrypt_pbkdf (1.1.1) sha256=2f9077dde837d1f0dd2eb0f9e5327c6871c68ebc8eba88870fb6b7956e1e2b13
   benchmark (0.4.1) sha256=d4ef40037bba27f03b28013e219b950b82bace296549ec15a78016552f8d2cce
   better_html (2.1.1) sha256=046c3551d1488a3f2939a7cac6fabf2bde08c32e135c91fcd683380118e5af55
-  bigdecimal (3.2.2) sha256=39085f76b495eb39a79ce07af716f3a6829bc35eb44f2195e2753749f2fa5adc
+  bigdecimal (3.2.3) sha256=ffd11d1ac67a0d3b2f44aec0a6487210b3f813f363dd11f1fcccf5ba00da4e1b
   bindex (0.8.1) sha256=7b1ecc9dc539ed8bccfc8cb4d2732046227b09d6f37582ff12e50a5047ceb17e
   bootsnap (1.18.6) sha256=0ae2393c1e911e38be0f24e9173e7be570c3650128251bf06240046f84a07d00
   brakeman (7.1.0) sha256=bbc708a75a53008490c8b9600b97fa85cb3d5a8818dd1560f18e0b89475d48af
@@ -658,7 +658,7 @@ CHECKSUMS
   capybara (3.40.0) sha256=42dba720578ea1ca65fd7a41d163dd368502c191804558f6e0f71b391054aeef
   chunky_png (1.4.0) sha256=89d5b31b55c0cf4da3cf89a2b4ebc3178d8abe8cbaf116a1dba95668502fdcfe
   concurrent-ruby (1.3.5) sha256=813b3e37aca6df2a21a3b9f1d497f8cbab24a2b94cab325bffe65ee0f6cbebc6
-  connection_pool (2.5.3) sha256=cfd74a82b9b094d1ce30c4f1a346da23ee19dc8a062a16a85f58eab1ced4305b
+  connection_pool (2.5.4) sha256=e9e1922327416091f3f6542f5f4446c2a20745276b9aa796dd0bb2fd0ea1e70a
   crack (1.0.0) sha256=c83aefdb428cdc7b66c7f287e488c796f055c0839e6e545fec2c7047743c4a49
   crass (1.0.6) sha256=dc516022a56e7b3b156099abc81b6d2b08ea1ed12676ac7a5657617f012bd45d
   date (3.4.1) sha256=bf268e14ef7158009bfeaec40b5fa3c7271906e88b196d958a89d4b408abe64f
@@ -687,7 +687,7 @@ CHECKSUMS
   globalid (1.2.1) sha256=70bf76711871f843dbba72beb8613229a49429d1866828476f9c9d6ccc327ce9
   hashdiff (1.2.0) sha256=c984f13e115bfc9953332e8e83bd9d769cfde9944e2d54e07eb9df7b76e140b5
   hashids (1.0.6) sha256=a344c05f249417492bf48451a93770558834ff7a445e1b64ef112954a0293019
-  honeybadger (6.0.6)
+  honeybadger (6.0.6) sha256=901904cf4207b1d01b43d752528e328b47daaf94b2307562d0469eb737c5bfcd
   hotwire_combobox (0.4.0) sha256=9ecae02e3b0686541f2d17eed22d616b64fabc42430de2f8de300a5dbba58cd2
   http-cookie (1.0.8) sha256=b14fe0445cf24bf9ae098633e9b8d42e4c07c3c1f700672b09fbfe32ffd41aa6
   i18n (1.14.7) sha256=ceba573f8138ff2c0915427f1fc5bdf4aa3ab8ae88c8ce255eb3ecf0a11a5d0f
@@ -733,7 +733,7 @@ CHECKSUMS
   nkf (0.2.0) sha256=fbc151bda025451f627fafdfcb3f4f13d0b22ae11f58c6d3a2939c76c5f5f126
   nokogiri (1.18.9-arm64-darwin) sha256=eea3f1f06463ff6309d3ff5b88033c4948d0da1ab3cc0a3a24f63c4d4a763979
   nokogiri (1.18.9-x86_64-linux-gnu) sha256=b52f5defedc53d14f71eeaaf990da66b077e1918a2e13088b6a96d0230f44360
-  noticed (2.8.0) sha256=7a18b5a9ada847e3dfeef7ea1f68d43896b3490dae4ee9da0b6354684cda2dba
+  noticed (2.8.1) sha256=4c1d86794b078a4ffc5be5d60e490744c3f1d5a64dab004b0639278eae048797
   orm_adapter (0.5.0) sha256=aa5d0be5d540cbb46d3a93e88061f4ece6a25f6e97d6a47122beb84fe595e9b9
   ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
   pagy (43.0.0.rc4) sha256=457988dc7a540200bcfe5d7c8bae796a5d2fc59755be02ca1babe5c42e4e0ec9
@@ -759,7 +759,7 @@ CHECKSUMS
   pundit (2.5.0) sha256=4fb6b8ad3fbfe6c34e4be172a1eac03dfcb36c29d6a1214574517af5a605beda
   raabro (1.4.0) sha256=d4fa9ff5172391edb92b242eed8be802d1934b1464061ae5e70d80962c5da882
   racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
-  rack (3.2.0) sha256=79cd21514d696c59d61fae02e62900f087aac2d053fdc77d45f4e91b94fb3612
+  rack (3.2.1) sha256=30af3f7e5ec21b0d14d822cf24446048dba5f651b617c7e97405b604f20a9e33
   rack-session (2.1.1) sha256=0b6dc07dea7e4b583f58a48e8b806d4c9f1c6c9214ebc202ec94562cbea2e4e9
   rack-test (2.2.0) sha256=005a36692c306ac0b4a9350355ee080fd09ddef1148a5f8b2ac636c720f5c463
   rackup (2.2.1) sha256=f737191fd5c5b348b7f0a4412a3b86383f88c43e13b8217b63d4c8d90b9e798d
