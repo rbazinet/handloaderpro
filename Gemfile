@@ -85,3 +85,5 @@ eval_gemfile "Gemfile.jumpstart"
 gem "mechanize", "~> 2.14"
 
 gem "standard", ">= 1.35.1"
+
+# Force bundler cache refresh for GitHub Actions
