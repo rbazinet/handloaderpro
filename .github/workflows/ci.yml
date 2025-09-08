@@ -105,6 +105,11 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: Configure bundler for Linux
+        run: |
+          bundle config set --local force_ruby_platform false
+          bundle install
+
       - name: Run tests
         env:
           DATABASE_URL: postgres://postgres:password@localhost:5432/test
@@ -149,6 +154,11 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+
+      - name: Configure bundler for Linux
+        run: |
+          bundle config set --local force_ruby_platform false
+          bundle install
 
       - name: Run tests
         env:
