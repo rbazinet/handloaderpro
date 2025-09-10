@@ -1,0 +1,8 @@
+# Standard Ruby configuration
+# https://github.com/standardrb/standard
+
+# Use progress formatter to show dots
+format: progress
+
+# Ruby version (optional, defaults to .ruby-version)
+ruby_version: 3.4.5
