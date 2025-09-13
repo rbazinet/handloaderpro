@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Accurate",
+    "manufacturer_type": "Powder",
+    "cartridge_type": "Rifle",
+    "cartridge_type_id": 1,
+    "source_text": "AccurateHodgdonIMRRamshotWinchester",
+    "extracted_at": "2025-09-13T02:55:12Z"
+  },
+  {
+    "name": "Hodgdon",
+    "manufacturer_type": "Powder",
+    "cartridge_type": "Rifle",
+    "cartridge_type_id": 1,
+    "source_text": "AccurateHodgdonIMRRamshotWinchester",
+    "extracted_at": "2025-09-13T02:55:12Z"
+  },
+  {
+    "name": "IMR",
+    "manufacturer_type": "Powder",
+    "cartridge_type": "Rifle",
+    "cartridge_type_id": 1,
+    "source_text": "AccurateHodgdonIMRRamshotWinchester",
+    "extracted_at": "2025-09-13T02:55:12Z"
+  },
+  {
+    "name": "Ramshot",
+    "manufacturer_type": "Powder",
+    "cartridge_type": "Rifle",
+    "cartridge_type_id": 1,
+    "source_text": "AccurateHodgdonIMRRamshotWinchester",
+    "extracted_at": "2025-09-13T02:55:12Z"
+  },
+  {
+    "name": "Winchester",
+    "manufacturer_type": "Powder",
+    "cartridge_type": "Rifle",
+    "cartridge_type_id": 1,
+    "source_text": "AccurateHodgdonIMRRamshotWinchester",
+    "extracted_at": "2025-09-13T02:55:12Z"
+  }
+]
