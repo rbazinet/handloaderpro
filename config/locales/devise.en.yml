@@ -81,6 +81,7 @@ en:
         title: "Edit Profile"
       new:
         sign_up: Sign up
+        login: "log in to your account"
         login_html: "Or %{link}"
         terms_html: "I accept the %{terms} &amp; %{privacy}"
         submitting: "Submitting..."
@@ -95,6 +96,7 @@ en:
     sessions:
       already_signed_out: "Signed out successfully."
       new:
+        sign_up: "sign up for an account"
         sign_up_html: "Or %{link}"
         sign_in: "Log in"
         title: "Log in"
