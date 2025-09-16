@@ -2,13 +2,13 @@
 
 # class for bullet weights
 class BulletWeight < ApplicationRecord
-  belongs_to :cartridge
+  # belongs_to :cartridge  # Removed direct cartridge association
+  has_many :cartridge_type_bullet_weights, dependent: :destroy
+  has_many :cartridge_types, through: :cartridge_type_bullet_weights
 
-  scope :for_cartridge, ->(cartridge_id) { where("cartridge_id = ?", cartridge_id) }
+  validates :weight, presence: true, uniqueness: true
 
-  validates :weight, presence: true, uniqueness: {scope: [:weight, :cartridge_id]}
-
-  def self.for_select(cartridge_id)
-    for_cartridge(cartridge_id).order(:weight).map { |bw| [bw.weight, bw.id] }
+  def self.for_select(cartridge_type_id)
+    joins(:cartridge_types).where(cartridge_types: {id: cartridge_type_id}).order(:weight).map { |bw| [bw.weight, bw.id] }
   end
 end

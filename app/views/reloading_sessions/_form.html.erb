@@ -1,6 +1,6 @@
 <%= form_with(model: reloading_session, html: { data: {
   controller: "cartridge-type-filter",
-  "cartridge-type-filter-cartridges-value": Cartridge.includes(:cartridge_type).map { |c| { id: c.id, name: c.name, cartridge_type_id: c.cartridge_type_id } }.to_json,
+  "cartridge-type-filter-cartridges-value": Cartridge.includes(:cartridge_types).map { |c| { id: c.id, name: c.name, cartridge_type_ids: c.cartridge_type_ids } }.to_json,
   "cartridge-type-filter-primer-types-value": PrimerType.includes(:cartridge_type).map { |pt| { id: pt.id, name: pt.name, cartridge_type_id: pt.cartridge_type_id } }.to_json,
   "cartridge-type-filter-bullets-value": Bullet.includes(:manufacturer).map { |b| { id: b.id, name: b.name, manufacturer_name: b.manufacturer.name, weight: b.weight } }.to_json,
   "cartridge-type-filter-bullet-weights-value": BulletWeight.all.map { |bw| { id: bw.id, weight: bw.weight } }.to_json,
@@ -82,7 +82,7 @@
         <div>
           <%= form.label :cartridge_id, class: "form-label" %>
           <%= form.collection_select :cartridge_id,
-              Cartridge.includes(:cartridge_type).order(:name),
+              Cartridge.includes(:cartridge_types).order(:name),
               :id, :name,
               { prompt: "Select a cartridge" },
               { class: "form-select", data: { "cartridge-type-filter-target": "cartridge" } } %>
