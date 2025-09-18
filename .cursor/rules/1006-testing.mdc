@@ -7,7 +7,7 @@ globs: ["test/**/*.rb"]
 
 ## Context
 
-- In Ruby on Rails 8.0 test files
+- In Ruby on Rails 8 test files
 - Using Minitest for testing
 - Tests should be thorough and maintainable
 

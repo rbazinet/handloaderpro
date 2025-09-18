@@ -1,5 +1,5 @@
 ---
-description: Follow Rails 8.0 model standards and patterns when creating or modifying models
+description: Follow Rails 8 model standards and patterns when creating or modifying models
 globs: ["app/models/**/*.rb"]
 ---
 
@@ -7,7 +7,7 @@ globs: ["app/models/**/*.rb"]
 
 ## Context
 
-- In Ruby on Rails 8.0 models
+- In Ruby on Rails 8 models
 - Use modern Rails patterns like store_accessor, concerns, and modules
 - Add YARD documentation
 

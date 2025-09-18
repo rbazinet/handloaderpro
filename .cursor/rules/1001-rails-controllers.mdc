@@ -1,5 +1,5 @@
 ---
-description: Follow Rails 8.0 controller standards and patterns when creating or editing controllers
+description: Follow Rails 8 controller standards and patterns when creating or editing controllers
 globs: ["app/controllers/**/*.rb"]
 ---
 
@@ -7,7 +7,7 @@ globs: ["app/controllers/**/*.rb"]
 
 ## Context
 
-- In Ruby on Rails 8.0 controllers
+- In Ruby on Rails 8 controllers
 - Controllers should follow RESTful conventions
 - Comment style includes HTTP verb and path
 

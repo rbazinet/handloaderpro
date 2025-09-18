@@ -115,6 +115,14 @@ end
 - **PostgreSQL** (primary), **SolidQueue** (jobs), **SolidCache** (cache), **SolidCable** (websockets)
 - **Hotwire** (Turbo + Stimulus) for frontend interactivity
 - **Import Maps** for JavaScript (no Node.js/npm dependency)
+- **Email delivery**: Mailgun, Mailpace, and Postmark use API gems instead of SMTP
+- **API client errors**: Raise `UnprocessableContent` for 422 responses (rfc9110)
+
+## Technology Stack
+
+- **Rails 8** with Hotwire (Turbo + Stimulus) and Hotwire Native
+- **PostgreSQL** (primary), **SolidQueue** (jobs), **SolidCache** (cache), **SolidCable** (websockets)
+- **Import Maps** for JavaScript (no Node.js dependency)
 - **TailwindCSS v4** via tailwindcss-rails gem
 - **Devise** for authentication with custom extensions
 - **Pundit** for authorization policies

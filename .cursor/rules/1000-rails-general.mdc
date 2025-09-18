@@ -1,13 +1,13 @@
 ---
-description: Follow general Rails 8.0 conventions and patterns
+description: Follow general Rails 8 conventions and patterns
 globs: ["**/*.rb", "app/**/*.erb"]
 ---
 
-# General Rails 8.0 Conventions
+# General Rails 8 Conventions
 
 ## Context
 
-- In Ruby on Rails 8.0 application
+- In Ruby on Rails 8 application
 - Using modern Rails features and patterns
 - Follows Ruby style conventions
 
@@ -19,7 +19,7 @@ globs: ["**/*.rb", "app/**/*.erb"]
 - Use modules for namespacing and code organization
 - Use class Module::ClassName instead of nested module/class definitions
 - Add YARD documentation to methods and classes
-- Use positional arguments in enums and other Rails 8.0 features
+- Use positional arguments in enums and other Rails 8 features
 - Use credentials with Rails.application.credentials syntax
 - Pass models to jobs, not IDs (they'll be serialized automatically)
 - Use has_prefix_id for models with UUIDs
@@ -34,7 +34,7 @@ globs: ["**/*.rb", "app/**/*.erb"]
 
 <example>
 ```ruby
-# Good - Using Rails 8.0 credentials
+# Good - Using Rails 8 credentials
 api_key = Rails.application.credentials.anthropic[:api_key]
 
 # Good - Using Service Object
