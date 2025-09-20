@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_09_13_023936) do
+ActiveRecord::Schema[8.1].define(version: 2025_09_20_024314) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -119,11 +119,9 @@ ActiveRecord::Schema[8.1].define(version: 2025_09_13_023936) do
   end
 
   create_table "bullet_weights", force: :cascade do |t|
-    t.bigint "cartridge_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.float "weight"
-    t.index ["cartridge_id"], name: "index_bullet_weights_on_cartridge_id"
   end
 
   create_table "bullets", force: :cascade do |t|
@@ -521,7 +519,6 @@ ActiveRecord::Schema[8.1].define(version: 2025_09_13_023936) do
   add_foreign_key "accounts", "users", column: "owner_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "api_tokens", "users"
-  add_foreign_key "bullet_weights", "cartridges"
   add_foreign_key "bullets", "calibers"
   add_foreign_key "bullets", "manufacturers"
   add_foreign_key "cartridge_type_bullet_weights", "bullet_weights"

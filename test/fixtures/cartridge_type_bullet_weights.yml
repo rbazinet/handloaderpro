@@ -1,0 +1,7 @@
+rifle_weight_168:
+  cartridge_type: rifle
+  bullet_weight: weight_168
+
+rifle_weight_155:
+  cartridge_type: rifle
+  bullet_weight: weight_155
