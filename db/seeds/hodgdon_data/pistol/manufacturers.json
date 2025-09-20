@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Accurate",
+    "manufacturer_type": "Powder",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "source_text": "AccurateADIHodgdonIMRRamshotWinchester",
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "Hodgdon",
+    "manufacturer_type": "Powder",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "source_text": "AccurateADIHodgdonIMRRamshotWinchester",
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "IMR",
+    "manufacturer_type": "Powder",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "source_text": "AccurateADIHodgdonIMRRamshotWinchester",
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "Ramshot",
+    "manufacturer_type": "Powder",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "source_text": "AccurateADIHodgdonIMRRamshotWinchester",
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "Winchester",
+    "manufacturer_type": "Powder",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "source_text": "AccurateADIHodgdonIMRRamshotWinchester",
+    "extracted_at": "2025-09-13T02:51:18Z"
+  }
+]

@@ -1,0 +1,837 @@
+[
+  {
+    "weight": 15.5,
+    "weight_text": "15.5",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 20.0,
+    "weight_text": "20",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 24.0,
+    "weight_text": "24",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 25.0,
+    "weight_text": "25",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 26.0,
+    "weight_text": "26",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 30.0,
+    "weight_text": "30",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 32.0,
+    "weight_text": "32",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 33.0,
+    "weight_text": "33",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 34.0,
+    "weight_text": "34",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 35.0,
+    "weight_text": "35",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 36.0,
+    "weight_text": "36",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 39.0,
+    "weight_text": "39",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 40.0,
+    "weight_text": "40",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 42.0,
+    "weight_text": "42",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 45.0,
+    "weight_text": "45",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 46.0,
+    "weight_text": "46",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 50.0,
+    "weight_text": "50",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 52.0,
+    "weight_text": "52",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 53.0,
+    "weight_text": "53",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 55.0,
+    "weight_text": "55",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 56.0,
+    "weight_text": "56",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 58.0,
+    "weight_text": "58",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 60.0,
+    "weight_text": "60",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 62.0,
+    "weight_text": "62",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 63.0,
+    "weight_text": "63",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 64.0,
+    "weight_text": "64",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 65.0,
+    "weight_text": "65",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 68.0,
+    "weight_text": "68",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 69.0,
+    "weight_text": "69",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 70.0,
+    "weight_text": "70",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 71.0,
+    "weight_text": "71",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 72.0,
+    "weight_text": "72",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 73.0,
+    "weight_text": "73",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 75.0,
+    "weight_text": "75",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 77.0,
+    "weight_text": "77",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 78.0,
+    "weight_text": "78",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 80.0,
+    "weight_text": "80",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 82.0,
+    "weight_text": "82",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 83.0,
+    "weight_text": "83",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 84.0,
+    "weight_text": "84",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 85.0,
+    "weight_text": "85",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 86.0,
+    "weight_text": "86",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 85.5,
+    "weight_text": "85.5",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 87.0,
+    "weight_text": "87",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 88.0,
+    "weight_text": "88",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 90.0,
+    "weight_text": "90",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 93.0,
+    "weight_text": "93",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 95.0,
+    "weight_text": "95",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 97.0,
+    "weight_text": "97",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 98.0,
+    "weight_text": "98",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 100.0,
+    "weight_text": "100",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 102.0,
+    "weight_text": "102",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 103.0,
+    "weight_text": "103",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 105.0,
+    "weight_text": "105",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 107.0,
+    "weight_text": "107",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 108.0,
+    "weight_text": "108",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 110.0,
+    "weight_text": "110",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 112.0,
+    "weight_text": "112",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 115.0,
+    "weight_text": "115",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 117.0,
+    "weight_text": "117",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 118.0,
+    "weight_text": "118",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 120.0,
+    "weight_text": "120",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 123.0,
+    "weight_text": "123",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 124.0,
+    "weight_text": "124",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 125.0,
+    "weight_text": "125",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 127.0,
+    "weight_text": "127",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 129.0,
+    "weight_text": "129",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 130.0,
+    "weight_text": "130",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 135.0,
+    "weight_text": "135",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 136.0,
+    "weight_text": "136",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 139.0,
+    "weight_text": "139",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 140.0,
+    "weight_text": "140",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 142.0,
+    "weight_text": "142",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 143.0,
+    "weight_text": "143",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 145.0,
+    "weight_text": "145",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 146.0,
+    "weight_text": "146",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 147.0,
+    "weight_text": "147",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 148.0,
+    "weight_text": "148",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 150.0,
+    "weight_text": "150",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 153.0,
+    "weight_text": "153",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 154.0,
+    "weight_text": "154",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 155.0,
+    "weight_text": "155",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 158.0,
+    "weight_text": "158",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 160.0,
+    "weight_text": "160",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 162.0,
+    "weight_text": "162",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 165.0,
+    "weight_text": "165",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 166.0,
+    "weight_text": "166",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 167.0,
+    "weight_text": "167",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 168.0,
+    "weight_text": "168",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 170.0,
+    "weight_text": "170",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 173.0,
+    "weight_text": "173",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 174.0,
+    "weight_text": "174",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 175.0,
+    "weight_text": "175",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 178.0,
+    "weight_text": "178",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 180.0,
+    "weight_text": "180",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 183.0,
+    "weight_text": "183",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 185.0,
+    "weight_text": "185",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 187.0,
+    "weight_text": "187",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 190.0,
+    "weight_text": "190",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 195.0,
+    "weight_text": "195",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 196.0,
+    "weight_text": "196",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 198.0,
+    "weight_text": "198",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 200.0,
+    "weight_text": "200",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 202.0,
+    "weight_text": "202",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 204.0,
+    "weight_text": "204",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 208.0,
+    "weight_text": "208",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 210.0,
+    "weight_text": "210",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 212.0,
+    "weight_text": "212",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 215.0,
+    "weight_text": "215",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 220.0,
+    "weight_text": "220",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 225.0,
+    "weight_text": "225",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 230.0,
+    "weight_text": "230",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 235.0,
+    "weight_text": "235",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 240.0,
+    "weight_text": "240",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 245.0,
+    "weight_text": "245",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 246.0,
+    "weight_text": "246",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 250.0,
+    "weight_text": "250",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 255.0,
+    "weight_text": "255",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 260.0,
+    "weight_text": "260",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 265.0,
+    "weight_text": "265",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 268.0,
+    "weight_text": "268",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 270.0,
+    "weight_text": "270",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 275.0,
+    "weight_text": "275",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 280.0,
+    "weight_text": "280",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 285.0,
+    "weight_text": "285",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 286.0,
+    "weight_text": "286",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 300.0,
+    "weight_text": "300",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 315.0,
+    "weight_text": "315",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 320.0,
+    "weight_text": "320",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 325.0,
+    "weight_text": "325",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 330.0,
+    "weight_text": "330",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 335.0,
+    "weight_text": "335",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 350.0,
+    "weight_text": "350",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 355.0,
+    "weight_text": "355",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 360.0,
+    "weight_text": "360",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 370.0,
+    "weight_text": "370",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 375.0,
+    "weight_text": "375",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 385.0,
+    "weight_text": "385",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 390.0,
+    "weight_text": "390",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 395.0,
+    "weight_text": "395",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 400.0,
+    "weight_text": "400",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 405.0,
+    "weight_text": "405",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 410.0,
+    "weight_text": "410",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 420.0,
+    "weight_text": "420",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 425.0,
+    "weight_text": "425",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 435.0,
+    "weight_text": "435",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 440.0,
+    "weight_text": "440",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 450.0,
+    "weight_text": "450",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 451.0,
+    "weight_text": "451",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 460.0,
+    "weight_text": "460",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 468.0,
+    "weight_text": "468",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 473.0,
+    "weight_text": "473",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 485.0,
+    "weight_text": "485",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 500.0,
+    "weight_text": "500",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 510.0,
+    "weight_text": "510",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 515.0,
+    "weight_text": "515",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 520.0,
+    "weight_text": "520",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 525.0,
+    "weight_text": "525",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 535.0,
+    "weight_text": "535",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 570.0,
+    "weight_text": "570",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 600.0,
+    "weight_text": "600",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 650.0,
+    "weight_text": "650",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 655.0,
+    "weight_text": "655",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 700.0,
+    "weight_text": "700",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 750.0,
+    "weight_text": "750",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 800.0,
+    "weight_text": "800",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "weight": 888.0,
+    "weight_text": "888",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  }
+]

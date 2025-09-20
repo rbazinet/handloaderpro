@@ -1,0 +1,566 @@
+[
+  {
+    "name": "17 Bumble Bee",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "5.7x28 FN",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "22 TCM",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "22 Remington Jet",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "22 Hornet - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "22 K Hornet - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "221 Fireball - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "221 Remington Fireball",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "222 Remington - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "223 Remington - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "22 BR Remington - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "6mm TCU",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "6mm-204 RR",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "6mm BR Remington - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "243 Winchester - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "25 ACP",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "25-35 Winchester - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "256 Winchester",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "6.5mm TCU",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "6.5mm BR - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "6.5mm JDJ",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "270 Ren",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "270 Winchester - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "7mm TCU",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "7mm BR Remington - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "7-30 Waters - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "7mm IHMSA",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "7mm-08 Remington - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "30 Luger (7.65mm Parabellum)",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "30 Carbine - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "30 Herrett",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "30-30 Winchester - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "308 Winchester - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "30-06 - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "32 ACP",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "32 S&W",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "32 S&W Long",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "32 North American Arms",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "30 Super Carry",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "32 H&R Magnum",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "32-20 Winchester",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "327 Federal Magnum",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "380 Auto",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "38 S&W",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "38 Short Colt",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "38 Long Colt",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "9mm Luger",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "9mm Luger +P",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "38 Super Auto",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "38 Super Auto +P",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "9x23 mm Winchester",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "38 Special",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "38 Special +P",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "357 SIG",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "357 Magnum - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "357-44 Bain & Davis",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "357 Remington Maximum",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "357 Herrett",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "35 Remington - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "9 x 18mm Makarov",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "375 Super Mag",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "375 JDJ",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "38-40 Winchester",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "40 S&W",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "10mm Auto",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "41 Action Express",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "41 Remington Magnum",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "44 Colt",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "44 Russian",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "44 S&W Special",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "44-40 Winchester - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "44 Remington Magnum - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "44 Auto Mag",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "445 Super Mag",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "444 Marlin - Pistol",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "45 S&W (Schofield)",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "45 GAP (Glock Auto)",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "45 ACP",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "45 ACP +P",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "45 SUPER",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "45 Colt",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "45 Colt (Ruger, Freedom Arms & T/C only)",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "45 Winchester Magnum",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "450 Extreme",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "454 Casull",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "460 S&W MAGNUM",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "45-70 Government",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "480 Ruger",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "475 Linebaugh",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "50 Action Express",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "500 Linebaugh",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "500 Wyoming Express",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "500 S&W Magnum",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  },
+  {
+    "name": "500 Maximum",
+    "cartridge_type": "Pistol",
+    "cartridge_type_id": 2,
+    "extracted_at": "2025-09-13T02:51:18Z"
+  }
+]

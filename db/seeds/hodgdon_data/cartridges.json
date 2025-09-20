@@ -1,0 +1,1062 @@
+[
+  {
+    "name": "17 Ackley Hornet",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "17 Hornet",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "17 Ackley Bee",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "17 Mach IV",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "17 Remington Fireball",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "17-222",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "17-223",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "17 Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "20 Vartarg",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "20 Vartarg Turbo",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "20 Tactical",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "204 Ruger",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "20 PPC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "20 BR",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "22 Hornet",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "22 K Hornet",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "218 Bee",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "221 Fireball",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "222 Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "223 Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "222 Remington Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "22 PPC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "219 Zipper",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "224 Valkyrie",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "22 Nosler",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "22 BR Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "224 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "219 Wasp",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "225 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "22 ARC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "22-250 Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "220 Swift",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "220 Jaybird",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "22 Cheetah Mark II",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "22 GT",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "22 Creedmoor",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "223 Winchester Super Short Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6mm-222",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6 x 45mm (6mm-223)",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6 x 47mm",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6mm PPC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6MM ARC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "24 Nosler",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6mm BR Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6mm BR Norma",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6mm Dasher",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6mm XC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6mm-250",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6 GT",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6X47MM Lapua",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6mm Creedmoor",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "Reduced Recoil 243 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "243 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6mm Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "243 Winchester Super Short Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6mm - 284",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "240 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "25-20 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "256 Winchester Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "25-35 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "257 Kimber",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "250-3000 Savage",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "25 Creedmoor",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "257 Roberts",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "257 Roberts +P",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "257 Roberts Ackley Improved",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "25-284",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "25-06 Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "25 Winchester Super Short Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "257 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5mm Grendel",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5mm BR",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5 x 50mm Japanese",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5mm Carcano",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5X47MM Lapua",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5 Creedmoor",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "260 Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5 x 55mm Swedish Mauser",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5mm-06",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5-284",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5-284 Norma",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5mm Remington Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5 PRC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "264 Winchester Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5 WBY RPM",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "26 Nosler",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.5-300 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.8 mm Remington SPC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "270 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "6.8 Western",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "270 Winchester Short Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "27 Nosler",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "270 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7mm BR Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7-30 Waters",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7mm-08 Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7mm Shooting Times Easterner",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7 x 57mm Mauser",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "280 Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "284 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "280 Ackley Improved",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7mm Rem. S.A. Ultra Mag.",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7mm Winchester Short Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7mm Remington Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7MM PRC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7mm Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7mm Shooting Times Westerner",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "28 Nosler",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7mm Remington Ultra Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "30 Carbine",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 AAC Blackout",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 HAM'R",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "30 BR Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "30-30 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "30 AR Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "30-40 Krag",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7.5 x 55mm Swiss",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 Savage",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7.62 x 54R",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "30 Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "307 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "308 Marlin Express",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "30 TC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "308 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "308 Winchester Service Rifle",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "30-06",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "M1 Garand Service Rifle",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 H & H Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "308 Norma Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 Ruger Compact Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 Remington S.A. Ultra Mag.",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 Winchester Short Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 Winchester Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "30 Nosler",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 PRC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 Norma Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "300 Remington Ultra Mag",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "30-378 Weatherby",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7.62 x 39mm Russian",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "303 Savage",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7.7 x 58mm Japanese",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "303 British",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "7.65 x 53 Mauser",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "32 Winchester Special",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "32-40 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "8 x 57mm Mauser",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "8mm-06",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "8x57mm Mauser",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "325 Winchester Short Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "8mm Remington Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "338 ARC",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "338 Marlin Express",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "338 Federal",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "338-06",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "338 Ruger Compact Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "338 WBY RPM",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "338 Winchester Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "33 Nosler",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "340 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "338 Lapua Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "338 Remington Ultra Mag",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "338 Norma Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "338-378 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "348 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "357 Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "350 Legend",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "35 Remington",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "356 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "358 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "35 Whelen",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "350 Remington Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "358 Norma Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "358 Shooting Times Alaskan",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "360 Buckhammer",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "9.3 x 62",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "9.3 x 74R",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "38-55 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "375 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "376 STEYR",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "375 H & H Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "375 Ruger",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "375 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "375 Remington Ultra Mag",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "378 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "400 Legend",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "40-65 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "405 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "416 Remington Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "416 Rigby",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "416 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "44-40 Winchester",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "44 Remington Magnum - Rifle",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "444 Marlin",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "450 Bushmaster",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "458 SOCOM",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "45-70 Government (Trapdoor Rifles)*",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "45-70 Government (Lever Actions)*",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "WWG 457 Mag",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "45-70 Government (Modern Rifles)*",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "450 Marlin",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "45-120 Sharps",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "458 Winchester Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "458 Lott",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "460 Weatherby Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "470 Nitro Express",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "50 Alaskan",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "500 CYRUS",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "500 Nitro Express 3\"",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "50-140 Sharps",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "50 Browning Machine Gun",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  },
+  {
+    "name": "550 Magnum",
+    "cartridge_type": "Rifle",
+    "extracted_at": "2025-09-13T01:42:04Z"
+  }
+]

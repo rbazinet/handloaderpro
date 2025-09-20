@@ -1,0 +1,11 @@
+rifle_lapua_308:
+  cartridge_type: rifle
+  cartridge: lapua_308
+
+rifle_federal_308:
+  cartridge_type: rifle
+  cartridge: federal_308
+
+pistol_federal_45acp:
+  cartridge_type: pistol
+  cartridge: federal_45acp

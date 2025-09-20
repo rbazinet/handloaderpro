@@ -36,7 +36,7 @@ export default class extends Controller {
 
     // Filter cartridges based on selected cartridge type
     this.cartridgesValue.forEach(cartridge => {
-      if (cartridge.cartridge_type_id.toString() === selectedCartridgeTypeId) {
+      if (cartridge.cartridge_type_ids.includes(parseInt(selectedCartridgeTypeId))) {
         const option = document.createElement("option")
         option.value = cartridge.id
         option.textContent = cartridge.name

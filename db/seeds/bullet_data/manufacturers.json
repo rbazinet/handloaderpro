@@ -1,0 +1,492 @@
+[
+  {
+    "name": "Aguila",
+    "source_url": "#Aguila",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Alco Precision",
+    "source_url": "#Alco Precision",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Armscor",
+    "source_url": "#Armscor",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Balistix",
+    "source_url": "#Balistix",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Barnes",
+    "source_url": "#Barnes",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Barrett",
+    "source_url": "#Barrett",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Berger",
+    "source_url": "#Berger",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "CCI",
+    "source_url": "#CCI",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Chey Tac",
+    "source_url": "#Chey Tac",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Cutting Edge",
+    "source_url": "#Cutting Edge",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "DRT",
+    "source_url": "#DRT",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "DTAC",
+    "source_url": "#DTAC",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Eley",
+    "source_url": "#Eley",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Extreme Performance",
+    "source_url": "#Extreme Performance",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Federal",
+    "source_url": "#Federal",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Fiocchi",
+    "source_url": "#Fiocchi",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "GS Custom Bullets",
+    "source_url": "#GS Custom Bullets",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "HBC",
+    "source_url": "#HBC",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Hornady",
+    "source_url": "#Hornady",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "JLK",
+    "source_url": "#JLK",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Lake City",
+    "source_url": "#Lake City",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Lapua",
+    "source_url": "#Lapua",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Lehigh",
+    "source_url": "#Lehigh",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Matrix Ballistics",
+    "source_url": "#Matrix Ballistics",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "MidwayUSA Dogtown",
+    "source_url": "#MidwayUSA Dogtown",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Montana Gold",
+    "source_url": "#Montana Gold",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Norma",
+    "source_url": "#Norma",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Nosler",
+    "source_url": "#Nosler",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "NwCP",
+    "source_url": "#NwCP",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "PMC",
+    "source_url": "#PMC",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "PMP",
+    "source_url": "#PMP",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Peregrine Bullets",
+    "source_url": "#Peregrine Bullets",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Precision Ballistics",
+    "source_url": "#Precision Ballistics",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Predator Projectiles",
+    "source_url": "#Predator Projectiles",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Prvi Partizan",
+    "source_url": "#Prvi Partizan",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "RWS",
+    "source_url": "#RWS",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Remington",
+    "source_url": "#Remington",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Remington/Eley",
+    "source_url": "#Remington/Eley",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Rocky Mountain Bullets",
+    "source_url": "#Rocky Mountain Bullets",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Sako",
+    "source_url": "#Sako",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Sellier and Bellot",
+    "source_url": "#Sellier and Bellot",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Sierra",
+    "source_url": "#Sierra",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Speer",
+    "source_url": "#Speer",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Swift",
+    "source_url": "#Swift",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "US Military",
+    "source_url": "#US Military",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Vapor Trail Bullets",
+    "source_url": "#Vapor Trail Bullets",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Warner Tool Company",
+    "source_url": "#Warner Tool Company",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Winchester",
+    "source_url": "#Winchester",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Woodleigh",
+    "source_url": "#Woodleigh",
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Aguila",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Alco Precision",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Armscor",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Balistix",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Barnes",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Barrett",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Berger",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "CCI",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Chey Tac",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Cutting Edge",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "DRT",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "DTAC",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Eley",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Extreme Performance",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Federal",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Fiocchi",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "GS Custom Bullets",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "HBC",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Hornady",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "JLK",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Lake City",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Lapua",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Lehigh",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Matrix Ballistics",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "MidwayUSA Dogtown",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Montana Gold",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Norma",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Nosler",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "NwCP",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "PMC",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "PMP",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Peregrine Bullets",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Precision Ballistics",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Predator Projectiles",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Prvi Partizan",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "RWS",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Remington",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Remington/Eley",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Rocky Mountain Bullets",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Sako",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Sellier and Bellot",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Sierra",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Speer",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Swift",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "US Military",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Vapor Trail Bullets",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Warner Tool Company",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Winchester",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  },
+  {
+    "name": "Woodleigh",
+    "source_url": null,
+    "extracted_at": "2025-09-13T01:22:26Z"
+  }
+]

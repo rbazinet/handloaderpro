@@ -13,6 +13,8 @@ class Manufacturer < ApplicationRecord
   has_many :bullets, dependent: :destroy
   has_many :powders, dependent: :destroy
   has_many :primers, dependent: :destroy
+  has_many :cartridge_type_manufacturers, dependent: :destroy
+  has_many :cartridge_types, through: :cartridge_type_manufacturers
 
   # Broadcast changes in realtime with Hotwire
   # after_create_commit -> { broadcast_prepend_later_to :manufacturers, partial: "manufacturers/index", locals: {manufacturer: self} }
