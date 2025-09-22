@@ -243,7 +243,7 @@ GEM
       pp (>= 0.6.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    json (2.14.1)
+    json (2.15.0)
     kamal (2.7.0)
       activesupport (>= 7.0)
       base64 (~> 0.2)
@@ -294,7 +294,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2025.0909)
+    mime-types-data (3.2025.0916)
     mini_magick (5.3.1)
       logger
     mini_mime (1.1.5)
@@ -554,7 +554,7 @@ GEM
     thruster (0.1.15-aarch64-linux)
     thruster (0.1.15-arm64-darwin)
     thruster (0.1.15-x86_64-linux)
-    tidewave (0.3.0)
+    tidewave (0.3.1)
       fast-mcp (~> 1.5.0)
       rack (>= 2.0)
       rails (>= 7.1.0)
@@ -735,7 +735,7 @@ CHECKSUMS
   io-console (0.8.1) sha256=1e15440a6b2f67b6ea496df7c474ed62c860ad11237f29b3bd187f054b925fcb
   irb (1.15.2) sha256=222f32952e278da34b58ffe45e8634bf4afc2dc7aa9da23fed67e581aa50fdba
   jbuilder (2.13.0)
-  json (2.14.1) sha256=b08994d751e9f0697cc089243a3cfabf998da1d25e81e7dd0d0f84136ff74642
+  json (2.15.0) sha256=bc24d490a1d81bcbf6b45ee5c02695545d4ed37f679cee879b789a2bbb53ad5c
   jumpstart (0.1.0)
   kamal (2.7.0) sha256=66b863d967a740886a1817f7e181849c100dfcd4bdf1d8695d9c20828313b4f8
   language_server-protocol (3.17.0.5) sha256=fd1e39a51a28bf3eec959379985a72e296e9f9acfce46f6a79d31ca8760803cc
@@ -750,7 +750,7 @@ CHECKSUMS
   matrix (0.4.3) sha256=a0d5ab7ddcc1973ff690ab361b67f359acbb16958d1dc072b8b956a286564c5b
   mechanize (2.14.0) sha256=33e76b7639d0181a46eaf1136b05f0e9043dfc5fc4b1a7b9fd8ae8bd437dd5e4
   mime-types (3.7.0) sha256=dcebf61c246f08e15a4de34e386ebe8233791e868564a470c3fe77c00eed5e56
-  mime-types-data (3.2025.0909) sha256=a3e4b38a8d98c05b964d40783e11cbfd96393d4fec9ba175cc25769edfbdb5ae
+  mime-types-data (3.2025.0916) sha256=0b0e783644ac4801c4f2c3efe6a985b337cf9954dcdba79f7d9314a05bec061c
   mini_magick (5.3.1) sha256=29395dfd76badcabb6403ee5aff6f681e867074f8f28ce08d78661e9e4a351c4
   mini_mime (1.1.5) sha256=8681b7e2e4215f2a159f9400b5816d85e9d8c6c6b491e96a12797e798f8bccef
   minitest (5.25.5) sha256=391b6c6cb43a4802bfb7c93af1ebe2ac66a210293f4a3fb7db36f2fc7dc2c756
@@ -858,7 +858,7 @@ CHECKSUMS
   thruster (0.1.15-aarch64-linux) sha256=bd55cf486e14ce0484c86a10b04a470da0463efc0dea2f495e49c0ac40d085df
   thruster (0.1.15-arm64-darwin) sha256=d340f3b361054123646912dd1833c8929732e1194d8f4d0305dcfb0e0017b289
   thruster (0.1.15-x86_64-linux) sha256=a979a3e493c111940723c08c3b7b3b6f95c5d44af26fe65b6edae1f96fc0deda
-  tidewave (0.3.0) sha256=7520898c5ed61ffcdd5d84d39797b82d559fe04fab9abc15af58e6667727bf57
+  tidewave (0.3.1) sha256=1793cf4f95f0fa303d83b7ccc5ce598c029ebb910547f3f9d010f52f364b06ec
   timeout (0.4.3) sha256=9509f079b2b55fe4236d79633bd75e34c1c1e7e3fb4b56cb5fda61f80a0fe30e
   tsort (0.2.0) sha256=9650a793f6859a43b6641671278f79cfead60ac714148aabe4e3f0060480089f
   ttfunk (1.8.0) sha256=a7cbc7e489cc46e979dde04d34b5b9e4f5c8f1ee5fc6b1a7be39b829919d20ca
