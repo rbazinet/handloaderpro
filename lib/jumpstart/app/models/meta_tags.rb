@@ -89,7 +89,7 @@ class MetaTags
       <% end %>
       <%= tag.link rel: "apple-touch-icon", href: apple_touch_icon %>
       <%= tag.meta name: "application-name", content: site %>
-      <%= tag.link(name: :robots, content: :noindex) if noindex %>
+      <%= tag.meta(name: :robots, content: :noindex) if noindex %>
       <%= tag.meta(name: "mobile-web-app-capable", content: :yes) if web_app_capable %>
       <%= tag.link(rel: :canonical, href: canonical_url) if canonical_url %>
       <%= tag.link(rel: :prev, href: prev_url) if prev_url %>

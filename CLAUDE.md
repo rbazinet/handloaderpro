@@ -116,6 +116,7 @@ end
 - **Hotwire** (Turbo + Stimulus) for frontend interactivity
 - **Import Maps** for JavaScript (no Node.js/npm dependency)
 - **Email delivery**: Mailgun, Mailpace, and Postmark use API gems instead of SMTP
+- **Email delivery**: Mailgun, Mailpace, Postmark, and Resend use API gems instead of SMTP
 - **API client errors**: Raise `UnprocessableContent` for 422 responses (rfc9110)
 
 ## Technology Stack

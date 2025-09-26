@@ -48,6 +48,7 @@ gem "omniauth-microsoft_graph" if omniauth_providers.include?("microsoft_graph")
 gem "mailgun-ruby" if Jumpstart.config.email_provider == "mailgun"
 gem "mailpace-rails" if Jumpstart.config.email_provider == "mailpace"
 gem "postmark-rails" if Jumpstart.config.email_provider == "postmark"
+gem "resend" if Jumpstart.config.email_provider == "resend"
 
 # Integrations
 gem "airbrake" if Jumpstart.config.airbrake?

@@ -125,6 +125,7 @@ module Jumpstart
       "Mailjet" => :mailjet,
       "Mailpace" => :mailpace,
       "Postmark" => :postmark,
+      "Resend" => :resend,
       "Sendgrid" => :sendgrid
     }.freeze
 
